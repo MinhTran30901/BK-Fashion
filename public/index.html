@@ -4,14 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <link href="./output.css" type="text/css" rel="stylesheet">
     <title>BK-fashion</title>
 </head>
 <body>
     <div id="root">
-        <div class="content-wrapper">
-            <header>
-                header
+        <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-400">
+            <header class="py-6 mx-10">
+                <nav class="flex flex-row justify-between items-center">
+                    <div class="logo flex basis-3/8 justify-end text-center text-xl font-semibold cursor-pointer">
+                        BK-Fashion.
+                    </div>
+                    <ul class="basis-3/8 flex items-center justify-start gap-8 uppercase text-sm text-gray-600 font-medium">
+                        <li class="tcm-menu-item">
+                            <a href="#" class="">Home</a>
+                        </li>
+                        <li class="tcm-menu-item">
+                            <a href="#" class="">Sale</a>
+                        </li>
+                        <li class="tcm-menu-item">
+                            <a href="#" class="">Contact</a>
+                        </li>
+                        <li class="tcm-menu-item">
+                            <a href="#" class="">Guide</a>
+                        </li>
+                        <li class="tcm-menu-item">
+                            <a href="#" class="">About us</a>
+                        </li>
+                    </ul>
+
+                    <ul class="basis-2/8 flex justify-end items-center ml-7 gap-2">
+                        <li class="flex items-center input-container relative w-40">
+                            <input class="relative w-full h-8 p-3 border-none rounded-[25px]" type="text" placeholder="Search..."></input>
+                            <button class="absolute right-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="tcm-icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                </svg>
+                            </button>                                      
+                        </li>
+                        <li class="cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" tcm-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                            </svg>
+                              
+                        </li>
+                        <li class="cursor-pointer flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" tcm-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                            </svg>
+                            <span class="tcm-badge-circle">9</span>
+                        </li>
+                    </ul>
+                </nav>
             </header>
 
             <main>
@@ -22,7 +66,7 @@
                 <div class="new-arrivals">
                     new-arrivals
                 </div><!-- end-new-arrivals  -->
-                
+
             </main>
 
 
